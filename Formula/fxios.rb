@@ -10,10 +10,10 @@ class Fxios < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "#{base_url}/fxios-ctl-v#{version}-macos-arm64.tar.gz"
+      url "#{base_url}/fxios-v#{version}-macos-arm64.tar.gz"
       sha256 "eb80b14007095ab2fef84ac4afadc76b8104ef790a473beb75a9f8ff79e45a7b"
     else
-      url "#{base_url}/fxios-ctl-v#{version}-macos-x86_64.tar.gz"
+      url "#{base_url}/fxios-v#{version}-macos-x86_64.tar.gz"
       sha256 "97d4869f2d4c746c19f41deb44d2ad340f607aec319ea92b212707400a293342"
     end
   end
